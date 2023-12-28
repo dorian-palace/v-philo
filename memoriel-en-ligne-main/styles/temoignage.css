@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; /* Utiliser la même police que les autres pages */
+}
+
+body {
+  background: url("../asset/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 5%;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Utiliser la même couleur que les autres pages */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+h2.temoignage {
+  margin: 20px 0;
+  color: rgb(255, 255, 255); /* Utiliser la même couleur que les autres pages */
+}
+
+button.post-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.comment-container {
+  max-width: 600px; /* Adjust this value based on your design */
+  width: 100%;
+  padding: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Your other CSS styles for comments and pagination go here */
+.comment-session {
+  
+  margin-bottom: 10px;
+  /* border: 1px solid #ddd; */
+
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* max-width: 50%; */
+}
+
+.post-comment {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.user {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-meta {
+  color: rgb(255, 255, 255);
+}
+
+.comment-post {
+  line-height: 2.4;
+  font-size: 20px;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination .prev,
+.pagination .next {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-align: center;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+  background-color: #ddd;
+}
+
+#post-mot{
+  text-decoration: underline;
+  color: burlywood;
+  font-size: 25px;
+  font-weight: bold;
+}
